@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Playfair Display', serif;
+  src: url("https://fonts.googleapis.com/css?family=Playfair+Display");
+}
+@font-face{
+  font-familY: 'PrincessSofia';
+  src: url("../fonts/PrincessSofia-Regular.ttf");
+}
+
+
+#stage{
+  position: relative;
+  display:block;
+  margin:auto;
+  text-align:center;
+  width: 100%;
+  max-width: 500px;
+  margin-top:50px;
+}
+
+#background{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+}
+
+#content{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+#heading{
+  font-family: "PrincessSofia";
+  margin:auto;
+  margin-top: 20px;
+  font-size: 60px;
+  user-select: none;
+}
+
+#scene{
+  margin:20px 0px 10px 0px;
+  user-select: none;
+}
+
+#output{
+  width:80%;
+  height: 160px;
+  margin: auto;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  margin-bottom:30px;
+  user-select: none;
+}
+
+button{
+  background-color: rgba(0,0,0,0.0);
+  font-family: "Playfair Display";
+  width:75px;
+  border: 1px solid black;
+  border-radius: 14px;
+  outline: none;
+  font-size:20px;
+  user-select: none;
+
+}
+
+button:hover{
+  background: rgba(165,127,89,0.3);
+
+}
+
+button:active{
+  background: rgba(165,127,89,0.3);
+  box-shadow: inset 0px 10px 15px -10px black,
+              inset 0px -10px 15px -10px black,
+              inset 10px 0px 15px -10px black,
+              inset -10px 0px 15px -10px black;
+}
+
+#input{
+  width:250px;
+  margin-left:10px;
+  text-align:center;
+  font-family: "Playfair Display";
+  font-size:20px;
+  background-color: rgba(0,0,0,0.0);
+  outline: none;
+  border: 1px solid black;
+  border-radius: 14px;
+
+}
