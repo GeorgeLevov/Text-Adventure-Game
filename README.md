@@ -1,2 +1,2 @@
 # Text adventure puzzle game
-Open index.html from '/src' to play the game
+Open 'text adventure game.html' from '/src' to play the game
